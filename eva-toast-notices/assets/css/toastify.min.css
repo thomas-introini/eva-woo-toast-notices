@@ -1,0 +1,60 @@
+.eva-toastify-container {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  pointer-events: none;
+}
+
+.eva-toastify-container-top {
+  top: 1rem;
+}
+
+.eva-toastify-container-bottom {
+  bottom: 1rem;
+}
+
+.eva-toastify-container-left {
+  left: 1rem;
+  align-items: flex-start;
+}
+
+.eva-toastify-container-right {
+  right: 1rem;
+  align-items: flex-end;
+}
+
+.eva-toastify {
+  min-width: 220px;
+  max-width: 420px;
+  background: #333;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  line-height: 1.4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  pointer-events: auto;
+}
+
+.eva-toastify a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.eva-toastify-close {
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0.25rem;
+}
+
+

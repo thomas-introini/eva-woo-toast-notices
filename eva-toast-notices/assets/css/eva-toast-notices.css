@@ -1,0 +1,17 @@
+.eva-toastify {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+.eva-toastify[role="alert"],
+.eva-toastify[role="status"] {
+  outline: none;
+}
+
+.eva-toastify:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+
