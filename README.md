@@ -15,7 +15,6 @@ From the project root (`/home/thomas/projects/eva-woo-toast-notices`):
 
 ```bash
 ./scripts/start.sh
-./scripts/install-wordpress.sh
 ```
 
 Then open `http://localhost:8080` in your browser.
@@ -29,5 +28,4 @@ To stop the environment:
 The plugin is mounted into the `wordpress` container at:
 
 `wp-content/plugins/eva-toast-notices/`
-
 
